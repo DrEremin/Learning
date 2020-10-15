@@ -41,6 +41,7 @@ public class Student {
     public void toPassModule() {
         if (numberOfPassedModules == MAX_NUMBER_OF_MODULES) {
             System.out.println("Все модули пройдены");
+            return;
         }
         numberOfPassedModules++;
         System.out.println("Модуль пройден");
